@@ -38,8 +38,7 @@ export function Navigation() {
         
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3">
-          <img src="/uploads/white.png" alt="Nutrizenix" className="h-10 w-auto" />
-          <span className="text-2xl font-bold text-white tracking-wider">Nutrizenix</span>
+          <img src="/uploads/c.png" alt="Nutrizenix" className="h-10 md:h-14 w-auto object-contain" />
         </Link>
 
         {/* Desktop Navigation */}

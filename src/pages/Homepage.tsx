@@ -89,9 +89,9 @@ export function Homepage() {
           <div className="flex flex-col items-start">
             <div className="mb-8">
             <motion.img 
-              src="/uploads/white.png" 
+              src="/uploads/c.png" 
               alt="Nutrizenix Logo" 
-              className="w-64 h-auto object-contain"
+              className="w-48 md:w-64 h-auto object-contain"
               animate={{ rotateY: 360 }}
               transition={{ 
                 repeat: Infinity, 
