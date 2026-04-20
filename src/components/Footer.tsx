@@ -21,13 +21,10 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/uploads/logo.png" 
+                src="/uploads/c.png" 
                 alt="Nutrizenix" 
-                className="h-8 w-auto"
+                className="h-12 md:h-16 w-auto object-contain"
               />
-              <span className="text-xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
-                Nutrizenix
-              </span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               SAKASH AGRO TECH PVT. LTD. - Nurturing Growth, Cultivating Excellence. 
