@@ -10,6 +10,7 @@ import '../assets/background.css';
 export function Homepage() {
   const [showLightLogo, setShowLightLogo] = useState(false);
   const { theme } = useTheme();
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   const offerings = [
     {
@@ -217,11 +218,18 @@ export function Homepage() {
                 muted
                 loop
                 playsInline
-                className="w-full h-full object-cover"
+                onLoadedData={() => setVideoLoaded(true)}
+                className={`w-full h-full object-cover transition-opacity duration-500 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
               >
                 <source src="/uploads/mid.mp4" type="video/mp4" />
+                <source src="/uploads/mid.mp4" type="video/quicktime" />
                 Your browser does not support the video tag.
               </video>
+              {!videoLoaded && (
+                <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800">
+                  <div className="w-12 h-12 border-4 border-green-500/30 border-t-green-500 rounded-full animate-spin" />
+                </div>
+              )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
               <div className="absolute bottom-6 left-6 text-white">
                 <p className="text-sm font-medium opacity-80">Farmer Success Stories</p>
