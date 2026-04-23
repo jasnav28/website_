@@ -218,11 +218,12 @@ export function Homepage() {
                 muted
                 loop
                 playsInline
+                preload="auto"
                 onLoadedData={() => setVideoLoaded(true)}
+                onCanPlay={() => setVideoLoaded(true)}
                 className={`w-full h-full object-cover transition-opacity duration-500 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
               >
                 <source src="/uploads/mid.mp4" type="video/mp4" />
-                <source src="/uploads/mid.mp4" type="video/quicktime" />
                 Your browser does not support the video tag.
               </video>
               {!videoLoaded && (
