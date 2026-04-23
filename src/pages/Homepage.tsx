@@ -87,7 +87,7 @@ export function Homepage() {
           
           {/* Left Side: Headline */}
           <div className="flex flex-col items-start">
-            <div className="mb-8">
+            <div className="mb-8 hidden md:block">
             <motion.img 
               src="/uploads/c.png" 
               alt="Nutrizenix Logo" 
@@ -162,6 +162,72 @@ export function Homepage() {
             <TestimonialsColumn testimonials={firstColumn} className="flex-1" duration={15} /> 
             <TestimonialsColumn testimonials={secondColumn} className="hidden md:block flex-1" duration={19} /> 
             <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block flex-1" duration={17} /> 
+          </div>
+        </div>
+      </section>
+
+      {/* Happy Farmers Section */}
+      <section className="py-24 bg-white dark:bg-black overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
+                Happy <span className="text-green-600 dark:text-green-400">Farmers</span>, <br />
+                Growing Success
+              </h2>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+                At SAKASH AGRO TECH PVT. LTD., our greatest achievement is the prosperity of the farmers we serve. Through our innovative solutions and dedicated support, we're helping agricultural communities thrive across the nation.
+              </p>
+              <div className="flex flex-col space-y-4">
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400">
+                    <Users className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Empowered Communities</h4>
+                    <p className="text-sm text-gray-500">Supporting local growth and sustainability</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-orange-600 dark:text-orange-400">
+                    <TrendingUp className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Increased Yields</h4>
+                    <p className="text-sm text-gray-500">Measurable improvements in crop performance</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video lg:aspect-square"
+            >
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              >
+                <source src="/uploads/mid.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-6 left-6 text-white">
+                <p className="text-sm font-medium opacity-80">Farmer Success Stories</p>
+                <p className="text-xl font-bold">Real Results in the Field</p>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Navigation } from './components/Navigation';
@@ -10,10 +11,26 @@ import { AboutUs } from './pages/AboutUs';
 import { Products } from './pages/Products';
 import { ProductDetail } from './pages/ProductDetail';
 import { Contact } from './pages/Contact';
+import { IntroVideo } from './components/IntroVideo';
 
 function App() {
+  const [showIntro, setShowIntro] = useState(true);
+
+  useEffect(() => {
+    const hasSeenIntro = sessionStorage.getItem('hasSeenIntro');
+    if (hasSeenIntro) {
+      setShowIntro(false);
+    }
+  }, []);
+
+  const handleIntroEnd = () => {
+    setShowIntro(false);
+    sessionStorage.setItem('hasSeenIntro', 'true');
+  };
+
   return (
     <ThemeProvider>
+      {showIntro && <IntroVideo onVideoEnd={handleIntroEnd} />}
       <Router>
         <ScrollToTop />
         <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
