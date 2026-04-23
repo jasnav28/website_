@@ -48,7 +48,7 @@ export function Navigation() {
             <img
               src="/uploads/c.png"
               alt="Logo"
-              className={`h-8 md:h-12 w-auto transition-all duration-300 ${
+              className={`h-10 md:h-14 w-auto transition-all duration-300 ${
                 !scrolled && location.pathname === '/' ? 'brightness-0 invert' : ''
               }`}
             />
