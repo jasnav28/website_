@@ -25,22 +25,16 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
   };
 
   useEffect(() => {
+    // Fallback if video fails to load after 10 seconds
     const fallbackTimer = setTimeout(() => {
       if (!videoLoaded) {
         setShowFallback(true);
         setVideoLoaded(true);
       }
-    }, 5000);
-
-    const endTimer = setTimeout(() => {
-      if (videoLoaded) {
-        handleVideoEnd();
-      }
-    }, 8000);
+    }, 10000);
 
     return () => {
       clearTimeout(fallbackTimer);
-      clearTimeout(endTimer);
     };
   }, [videoLoaded]);
 
@@ -74,13 +68,14 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
                 muted
                 playsInline
                 preload="auto"
-                onLoadedData={handleVideoLoad}
-                onCanPlay={handleVideoLoad}
+                onLoadedMetadata={handleVideoLoad}
+                onCanPlayThrough={handleVideoLoad}
                 onError={handleVideoError}
                 onEnded={handleVideoEnd}
-                className={`w-full h-full object-cover transition-opacity duration-500 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
+                className={`w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
               >
                 <source src="/uploads/in.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
               </video>
 
               {!videoLoaded && (
