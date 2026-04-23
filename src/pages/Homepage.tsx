@@ -10,7 +10,6 @@ import '../assets/background.css';
 export function Homepage() {
   const [showLightLogo, setShowLightLogo] = useState(false);
   const { theme } = useTheme();
-  const [videoLoaded, setVideoLoaded] = useState(false);
 
   const offerings = [
     {
@@ -211,31 +210,32 @@ export function Homepage() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video lg:aspect-square"
+              className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video lg:aspect-square bg-gradient-to-br from-green-900 to-green-700"
             >
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="auto"
-                onLoadedData={() => setVideoLoaded(true)}
-                onCanPlay={() => setVideoLoaded(true)}
-                className={`w-full h-full object-cover transition-opacity duration-500 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
-              >
-                <source src="/uploads/mid.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!videoLoaded && (
-                <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800">
-                  <div className="w-12 h-12 border-4 border-green-500/30 border-t-green-500 rounded-full animate-spin" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+                <div className="w-24 h-24 mb-6 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
+                  <Users className="w-12 h-12 text-white" />
                 </div>
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-              <div className="absolute bottom-6 left-6 text-white">
-                <p className="text-sm font-medium opacity-80">Farmer Success Stories</p>
-                <p className="text-xl font-bold">Real Results in the Field</p>
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">Our Farmers' Success Stories</h3>
+                <p className="text-white/80 text-sm md:text-base max-w-md">
+                  Witness the transformation of farms across the nation through our innovative agricultural solutions
+                </p>
+                <div className="flex items-center justify-center space-x-8 mt-6">
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-orange-300">500+</p>
+                    <p className="text-white/60 text-xs">Happy Farmers</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-orange-300">50+</p>
+                    <p className="text-white/60 text-xs">Products</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-orange-300">20+</p>
+                    <p className="text-white/60 text-xs">States</p>
+                  </div>
+                </div>
               </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
             </motion.div>
           </div>
         </div>
