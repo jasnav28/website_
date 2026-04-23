@@ -10,6 +10,8 @@ import '../assets/background.css';
 export function Homepage() {
   const [showLightLogo, setShowLightLogo] = useState(false);
   const { theme } = useTheme();
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false);
 
   const offerings = [
     {
@@ -212,7 +214,32 @@ export function Homepage() {
               viewport={{ once: true }}
               className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video lg:aspect-square bg-gradient-to-br from-green-900 to-green-700"
             >
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+              {!videoError ? (
+                <>
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="auto"
+                    onLoadedData={() => setVideoLoaded(true)}
+                    onCanPlay={() => setVideoLoaded(true)}
+                    onError={() => setVideoError(true)}
+                    className={`w-full h-full object-cover transition-opacity duration-700 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
+                  >
+                    <source src="/uploads/mid.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  {!videoLoaded && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-12 h-12 border-4 border-white/30 border-t-white rounded-full animate-spin" />
+                    </div>
+                  )}
+                </>
+              ) : null}
+
+              {/* Fallback content or overlay content */}
+              <div className={`absolute inset-0 flex flex-col items-center justify-center p-8 text-center transition-opacity duration-700 ${videoLoaded && !videoError ? 'opacity-0' : 'opacity-100'}`}>
                 <div className="w-24 h-24 mb-6 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
                   <Users className="w-12 h-12 text-white" />
                 </div>
