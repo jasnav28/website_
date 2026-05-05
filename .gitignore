@@ -26,6 +26,7 @@ dist-ssr
 
 # Large media files
 public/uploads/feedback.mp4
+public/uploads/mid.mp4
 # *.mp4
 *.mov
 *.avi
