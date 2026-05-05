@@ -291,7 +291,7 @@ ${formData.message}
               },
               {
                 question: "How long does shipping typically take?",
-                answer: "Standard shipping takes 3-5 business days within the continental US. Expedited shipping options are available for urgent orders."
+                answer: "Standard shipping takes 3-5 business days. Expedited shipping options are available for urgent orders."
               },
               {
                 question: "Do you offer technical support for product application?",
