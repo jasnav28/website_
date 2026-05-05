@@ -75,11 +75,11 @@ export function AboutUs() {
              initial={{ opacity: 0, x: 30 }}
              whileInView={{ opacity: 1, x: 0 }}
              transition={{ duration: 0.8 }}
-             className="relative h-full min-h-[300px] rounded-2xl overflow-hidden shadow-2xl"
+             className="relative w-full rounded-2xl overflow-hidden shadow-2xl aspect-video"
           >
             <video 
               src="/uploads/n.mp4" 
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-contain bg-black"
               autoPlay
               loop
               muted
