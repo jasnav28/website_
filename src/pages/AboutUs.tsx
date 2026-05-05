@@ -40,10 +40,8 @@ export function AboutUs() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className={`flex flex-col space-y-2 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}
+            className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}
           >
-            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-green-600 whitespace-nowrap overflow-hidden text-ellipsis">SAKASH AGRO TECH PVT. LTD.</p>
-            <p className="text-xl md:text-2xl italic">"Nurturing Growth. Cultivating Excellence"</p>
             <p className="text-lg md:text-xl">Providing advanced and specialized fertilizer solutions for the future of farming</p>
           </motion.div>
         </div>
