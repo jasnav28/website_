@@ -26,10 +26,11 @@ export function Footer() {
                 className="w-40 md:w-52 h-auto object-contain"
               />
             </div>
-            <p className="text-gray-300 mb-6 max-w-md">
-              SAKASH AGRO TECH PVT. LTD. - Nurturing Growth. Cultivating Excellence. 
-              Specializing in unique foliar solutions for modern agriculture.
-            </p>
+            <div className="text-gray-300 mb-6 max-w-md flex flex-col space-y-1">
+              <p className="font-bold text-white">SAKASH AGRO TECH PVT. LTD.</p>
+              <p className="italic">"Nurturing Growth. Cultivating Excellence"</p>
+              <p>Providing advanced and specialized fertilizer solutions for the future of farming</p>
+            </div>
           </div>
 
           {/* Quick Links */}
