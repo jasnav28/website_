@@ -898,19 +898,4 @@ export const products: Product[] = [
     inStock: true,
     application: 'Available Packing: 100ml, 250ml, 500ml, 1000ml & 5 Ltr.'
   },
-  {
-    id: 'combi-pro',
-    name: 'Combi Pro',
-    category: 'specialty',
-    image: '/uploads/Combi-Pro.png',
-    shortDescription: 'Advanced agricultural solution for Combi Pro.',
-    fullDescription: 'High-quality Combi Pro designed to improve crop yield and soil health. Suitable for various agricultural applications.',
-    features: ['High efficiency', 'Quality improvement', 'Sustainable', 'Easy application'],
-    usage: ['Consult label for specific dosage', 'Apply during suitable weather', 'Compatible with most agrochemicals'],
-    ingredients: ['Active Nutrients', 'Inert Ingredients', 'Growth Promoters'],
-    safetyTips: ['Keep out of reach of children', 'Store in a cool, dry place', 'Wear protective gear during application'],
-    price: 'Contact for Price',
-    inStock: true,
-    application: 'All Crops'
-  },
 ];

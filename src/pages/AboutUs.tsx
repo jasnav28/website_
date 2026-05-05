@@ -1,16 +1,17 @@
 import { motion } from 'framer-motion';
-import { Users, Target, Globe, Leaf, Heart, Droplets, Shield, Sprout, Zap, FlaskConical, CheckCircle } from 'lucide-react';
+import { Globe, CheckCircle } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 export function AboutUs() {
   const { theme } = useTheme();
   
   const productPortfolio = [
+    'Micronutrients',
+    'Bio-stimulants',
+    'Organic Fertilizers',
     'Suspension Fertilizers',
     'Solution Fertilizers',
-    'Foliar Liquid Fertilizers',
-    'Bio-stimulants Organic Fertilizers',
-    'Micronutrients'
+    'Foliar Application Fertilizers'
   ];
 
   return (
@@ -26,7 +27,7 @@ export function AboutUs() {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">SAKASH AGRO TECH PVT. LTD.</h1>
             <p className="text-xl md:text-3xl font-light opacity-90 italic">
-              "Nurturing Growth, Cultivating Excellence"
+              "Nurturing Growth. Cultivating Excellence"
             </p>
           </motion.div>
         </div>
@@ -35,17 +36,16 @@ export function AboutUs() {
       {/* Introduction Section */}
       <section className={`py-20 transition-colors duration-300 ${theme === 'dark' ? 'bg-gray-900' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <motion.p 
+          <motion.div 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className={`text-lg md:text-xl leading-relaxed ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}
+            className={`flex flex-col space-y-2 ${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}
           >
-            <span className="font-bold text-green-600">SAKASH AGRO TECH PVT. LTD.</span> is a dynamic and forward-thinking company 
-            specializing in unique foliar solutions for modern agriculture. Driven by a deep 
-            passion for farming and a strong commitment to environmental stewardship, 
-            we are dedicated to redefining the way farmers nourish and protect their crops.
-          </motion.p>
+            <p className="text-2xl md:text-3xl font-bold text-green-600">SAKASH AGRO TECH PVT. LTD.</p>
+            <p className="text-xl md:text-2xl italic">"Nurturing Growth. Cultivating Excellence"</p>
+            <p className="text-lg md:text-xl">Providing advanced and specialized fertilizer solutions for the future of farming</p>
+          </motion.div>
         </div>
       </section>
 

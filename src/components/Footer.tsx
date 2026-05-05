@@ -27,7 +27,7 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              SAKASH AGRO TECH PVT. LTD. - Nurturing Growth, Cultivating Excellence. 
+              SAKASH AGRO TECH PVT. LTD. - Nurturing Growth. Cultivating Excellence. 
               Specializing in unique foliar solutions for modern agriculture.
             </p>
           </div>
@@ -39,7 +39,6 @@ export function Footer() {
               <li><Link to="/" className="text-gray-300 hover:text-green-400 transition-colors">Home</Link></li>
               <li><Link to="/about" className="text-gray-300 hover:text-green-400 transition-colors">About Us</Link></li>
               <li><Link to="/products" className="text-gray-300 hover:text-green-400 transition-colors">Products</Link></li>
-              <li><Link to="/sustainability" className="text-gray-300 hover:text-green-400 transition-colors">Sustainability</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-green-400 transition-colors">Contact</Link></li>
             </ul>
           </div>

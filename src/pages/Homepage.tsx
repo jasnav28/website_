@@ -1,15 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Leaf, Droplets, Shield, Sprout, Zap, FlaskConical, Target, Users, TrendingUp } from 'lucide-react';
+import { ArrowUpRight, Leaf, Sprout, FlaskConical, Target, Users, TrendingUp } from 'lucide-react';
 import { ProductShowcase } from '../components/ProductShowcase';
 import { useTheme } from '../contexts/ThemeContext';
 import { TestimonialsColumn } from '../components/ui/testimonials-columns-1';
 import '../assets/background.css';
 
 export function Homepage() {
-  const [showLightLogo, setShowLightLogo] = useState(false);
-  const { theme } = useTheme();
   const [videoLoaded, setVideoLoaded] = useState(false);
   const [videoError, setVideoError] = useState(false);
 
@@ -89,20 +87,6 @@ export function Homepage() {
           
           {/* Left Side: Headline */}
           <div className="flex flex-col items-start">
-            <div className="mb-8 hidden md:block">
-            <motion.img 
-              src="/uploads/c.png" 
-              alt="Nutrizenix Logo" 
-              className="w-48 md:w-64 h-auto object-contain"
-              animate={{ rotateY: 360 }}
-              transition={{ 
-                repeat: Infinity, 
-                duration: 4, 
-                ease: "easeInOut",
-                repeatDelay: 1 
-              }}
-            />
-          </div>
             <motion.h1 
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -123,7 +107,7 @@ export function Homepage() {
             className="flex flex-col items-start lg:max-w-xl lg:ml-auto"
           >
             <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
-              Discover how cutting-edge technology, real-time insights, and precision tools are transforming traditional farming into a more productive, sustainable, and resilient industry.
+              Discover how advanced plant nutrition, precision formulations, and innovative technologies are transforming traditional farming into a more productive, sustainable, and resilient industry—explore our range of fertilizer solutions designed to deliver superior crop performance. 
             </p>
             
             <Link
@@ -183,7 +167,7 @@ export function Homepage() {
                 Growing Success
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                At SAKASH AGRO TECH PVT. LTD., our greatest achievement is the prosperity of the farmers we serve. Through our innovative solutions and dedicated support, we're helping agricultural communities thrive across the nation.
+                At SAKASH AGRO TECH PVT. LTD., we measure our success by the prosperity of the farmers we serve. Through innovative solutions and dedicated support, we empower agricultural communities to grow, succeed, and thrive nationwide.  
               </p>
               <div className="flex flex-col space-y-4">
                 <div className="flex items-center space-x-4">

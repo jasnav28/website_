@@ -131,8 +131,7 @@ ${formData.message}
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">Business Hours</h3>
                     <p className="text-gray-600 dark:text-gray-300 mt-1">
-                      Monday - Friday: 8:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 4:00 PM<br />
+                      Monday to Saturday : 9AM to 6PM<br />
                       Sunday: Closed
                     </p>
                   </div>
@@ -299,8 +298,8 @@ ${formData.message}
                 answer: "Yes, our team of agricultural experts provides comprehensive technical support including application guidance, soil testing recommendations, and ongoing consultation."
               },
               {
-                question: "Are your products certified organic?",
-                answer: "Many of our products are OMRI-listed and certified organic. Each product page clearly indicates its certification status and approved uses."
+                question: "Can your fertilizers be used for both foliar and soil application",
+                answer: "Our fertilizers are specially formulated for either soil or foliar application, and the recommended usage is clearly indicated on each product pack."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">

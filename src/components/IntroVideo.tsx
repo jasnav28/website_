@@ -59,7 +59,7 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
                 alt="Nutrizenix Logo"
                 className="w-64 md:w-96 h-auto object-contain animate-pulse"
               />
-              <p className="text-white/50 mt-8 text-lg">Nurturing Growth, Cultivating Excellence</p>
+              <p className="text-white/50 mt-8 text-lg">Nurturing Growth. Cultivating Excellence</p>
             </motion.div>
           ) : (
             <>
