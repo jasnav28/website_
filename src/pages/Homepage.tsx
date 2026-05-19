@@ -153,50 +153,71 @@ export function Homepage() {
       </section>
 
       {/* Happy Farmers Section */}
-      <section className="py-24 bg-white dark:bg-black overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 bg-white dark:bg-black overflow-hidden min-h-[600px] flex items-center">
+        {/* Desktop Background Video */}
+        <div className="hidden lg:block absolute inset-0 z-0">
+          {!videoError && (
+            <>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
+                className={`w-full h-full object-cover transition-opacity duration-700 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
+              >
+                <source src="/uploads/mid.mp4" type="video/mp4" />
+              </video>
+              <div className="absolute inset-0 bg-black/60" />
+            </>
+          )}
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
+              className="lg:text-white"
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white lg:text-white mb-6 tracking-tight">
                 Happy <span className="text-green-600 dark:text-green-400">Farmers</span>, <br />
                 Growing Success
               </h2>
-              <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+              <p className="text-lg text-gray-600 dark:text-gray-300 lg:text-white/90 mb-8 leading-relaxed">
                 At SAKASH AGRO TECH PVT. LTD., we measure our success by the prosperity of the farmers we serve. Through innovative solutions and dedicated support, we empower agricultural communities to grow, succeed, and thrive nationwide.  
               </p>
               <div className="flex flex-col space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400">
+                  <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 lg:bg-green-500/20 flex items-center justify-center text-green-600 dark:text-green-400 lg:text-green-300">
                     <Users className="w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">Empowered Communities</h4>
-                    <p className="text-sm text-gray-500">Supporting local growth and sustainability</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-white lg:text-white">Empowered Communities</h4>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 lg:text-white/60">Supporting local growth and sustainability</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-orange-600 dark:text-orange-400">
+                  <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-900/30 lg:bg-orange-500/20 flex items-center justify-center text-orange-600 dark:text-orange-400 lg:text-orange-300">
                     <TrendingUp className="w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">Increased Yields</h4>
-                    <p className="text-sm text-gray-500">Measurable improvements in crop performance</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-white lg:text-white">Increased Yields</h4>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 lg:text-white/60">Measurable improvements in crop performance</p>
                   </div>
                 </div>
               </div>
             </motion.div>
 
+            {/* Mobile/Tablet Video Box */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video lg:aspect-square bg-gradient-to-br from-green-900 to-green-700"
+              className="lg:hidden relative rounded-3xl overflow-hidden shadow-2xl aspect-video bg-gradient-to-br from-green-900 to-green-700"
             >
               {!videoError ? (
                 <>
@@ -222,7 +243,6 @@ export function Homepage() {
                 </>
               ) : null}
 
-              {/* Fallback content or overlay content */}
               <div className={`absolute inset-0 flex flex-col items-center justify-center p-8 text-center transition-opacity duration-700 ${videoLoaded && !videoError ? 'opacity-0' : 'opacity-100'}`}>
                 <div className="w-24 h-24 mb-6 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
                   <Users className="w-12 h-12 text-white" />
