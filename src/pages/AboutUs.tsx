@@ -15,7 +15,7 @@ export function AboutUs() {
   ];
 
   return (
-    <div className={`min-h-screen pt-16 transition-colors duration-300 ${theme === 'dark' ? 'bg-black' : 'bg-white'}`}>
+    <div className={`min-h-screen pt-24 transition-colors duration-300 ${theme === 'dark' ? 'bg-black' : 'bg-white'}`}>
       {/* Hero Section */}
       <section className="py-24 bg-gradient-to-r from-green-600 to-green-800 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1625246333195-5819acf424d6?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20"></div>
@@ -25,7 +25,7 @@ export function AboutUs() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">SAKASH AGRO TECH PVT. LTD.</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 tracking-tight">SAKASH AGRO TECH PVT. LTD.</h1>
             <p className="text-xl md:text-3xl font-light opacity-90 italic">
               "Nurturing Growth. Cultivating Excellence"
             </p>
@@ -42,7 +42,7 @@ export function AboutUs() {
             transition={{ duration: 0.8 }}
             className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}`}
           >
-            <p className="text-lg md:text-xl">Providing advanced and specialized fertilizer solutions for the future of farming</p>
+            <p className="text-lg md:text-xl">Providing advanced and specialized fertilizer solutions designed to support the future of modern farming. We help farmers improve productivity, sustainability, and crop performance through innovative agricultural technologies and expert-driven solutions.</p>
           </motion.div>
         </div>
       </section>

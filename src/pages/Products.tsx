@@ -173,9 +173,11 @@ export function Products() {
             >
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-white/80 text-lg">
-                  Select from our team<br />
-                  of highly skilled and<br />
-                  experienced products
+                  Learn from highly skilled<br />
+                  industry experts and<br />
+                  experienced professionals<br />
+                  building the future<br />
+                  of modern innovation
                 </h3>
                 <button
                   onClick={nextProduct}

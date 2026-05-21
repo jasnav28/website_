@@ -64,7 +64,7 @@ ${formData.message}
   };
 
   return (
-    <div className="min-h-screen pt-16 bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen pt-24 bg-gray-50 dark:bg-gray-900">
       {/* Hero Section */}
       <section className="py-20 bg-green-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
