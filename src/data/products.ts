@@ -20,7 +20,7 @@ export const products: Product[] = [
     name: 'AAM+',
     category: 'specialty',
     image: '/uploads/AAM-plus.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture for Mango) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Mango for Foliar Spray',
     fullDescription: 'Aam+ is an Essential Micronutrient mixture product for spray application. Aam+ is 100% Watersoluble fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -69,7 +69,7 @@ export const products: Product[] = [
     name: 'BANANA+',
     category: 'specialty',
     image: '/uploads/BANANA-plus.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
     fullDescription: 'Banana+ is an Essential Micronutrient mixture product for Spray Application. Banana+ is 100% Watersoluble Fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases the immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -92,7 +92,7 @@ export const products: Product[] = [
     name: 'NUTRI BHUSHAKTI',
     category: 'specialty',
     image: '/uploads/NUTRI-BHUSHAKTI.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture For Soil Application',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Soil Application',
     fullDescription: 'NUTRI BHUSHAKTI is a different product which is having essential micronutrients and traces of macro nutrients which helps the crop in all stages of plant growth and development and finally this product will help to get better yield in terms of qualitatively and quantitatively.',
     features: [
       'Improves photosynthesis in plants and entire plants will become greenish',
@@ -115,7 +115,7 @@ export const products: Product[] = [
     name: 'BORON+',
     category: 'specialty',
     image: '/uploads/BORON-plus.png',
-    shortDescription: 'BORAX (SODIUM TETRA BORATE) (B - 10.5%) MICRONUTRIENT FERTILIZER SOIL APPLICATION',
+    shortDescription: 'BORAX (SODIUM TETRA BORATE) (B - 10.5%) Micronutrient Fertilizer Soil Application',
     fullDescription: 'BORON+ is a micronutrient fertilizer for soil application containing Borax (Sodium Tetra Borate) with 10.5% Boron. It plays a vital role in the proper development of roots and shoots, improves germination and metabolic processes, and enhances flowering, tillering, and fruit formation.',
     features: [
       'It plays a vital role in proper development of roots and shoots',
@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: 'CALON',
     category: 'specialty',
     image: '/uploads/CALON.png',
-    shortDescription: 'Calcium Chloride 27% Straight Micronutrient Fertilizer (Foliar Application)',
+    shortDescription: 'Calcium Chloride 27% Straight Micronutrient Fertilizer Foliar Application',
     fullDescription: 'CALON is a Calcium Chloride 27% Straight Micronutrient Fertilizer designed for foliar application. It helps increase nutrient uptake, promotes strong stands, and is pivotal for crop yield. It helps maintain soil nutrition balance, reduces salinity, improves water penetration, and reduces plant stress. By promoting the release of reserve calcium from the soil, it provides immediate calcium to plants, strengthening cells and increasing disease resistance. It effectively prevents bitter pits in apples, blossom-end rot in tomatoes, and general fruit-rot and cracking.',
     features: [
       'Helps to increase the uptake of all nutrients',
@@ -216,7 +216,7 @@ export const products: Product[] = [
     name: 'CITRON+',
     category: 'specialty',
     image: '/uploads/CITRON-plus.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
     fullDescription: 'CITRON + is an Essential Micronutrient mixture product for Spray Application. CITRON + is 100% Watersoluble Fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases the immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -237,7 +237,7 @@ export const products: Product[] = [
   },
   {
     id: 'dymond-plus-33',
-    name: 'DYMOND + 33',
+    name: 'DYMOND+ 33',
     category: 'specialty',
     image: '/uploads/DYMOND--plus-33.png',
     shortDescription: 'Zinc Monohydrate-33% Foliar Application',
@@ -261,10 +261,10 @@ export const products: Product[] = [
   },
   {
     id: 'dymond---12',
-    name: 'DYMOND - 12',
+    name: 'DYMOND-12',
     category: 'specialty',
     image: '/uploads/DYMOND---12.png',
-    shortDescription: 'Chelated Zinc as Zn-EDTA - 12% Zn Straight Micronutrient fertilizer (Foliar Application)',
+    shortDescription: 'Chelated Zinc as Zn-EDTA - 12% Zn Straight Micronutrient fertilizer Foliar Application',
     fullDescription: 'As per the research in crops required not only micronutrients are most agriculture the high yielding major nutrients but also essential Off micronutrients Zinc element plays an important role in crop production. Because of the Zinc deficiency in the soil now a days crop yield decreasing gradually. To improve the yield and quality of crops SAKASH AGRO TECH PVT. LTD. has introduced ultimate quality Zinc product like Zinc -12% which contains chelated Zinc 12%.',
     features: [
       'Plays an important role in crop production',
@@ -287,7 +287,7 @@ export const products: Product[] = [
     name: 'DYMOND-21',
     category: 'specialty',
     image: '/uploads/DYMOND-21.png',
-    shortDescription: 'ZINC SULPHATE (Zn – 21%) MICRONUTRIENT FERTILIZER SOIL APPLICATION',
+    shortDescription: 'Zinc Sulphate (Zn – 21%) Micronutrient Fertilizer Soil Application',
     fullDescription: 'DYMOND-21 is a ZINC SULPHATE (Zn – 21%) MICRONUTRIENT FERTILIZER for SOIL APPLICATION. Zinc promotes growth hormones and starch formation. It promotes seed maturation and production. It is required by several enzyme systems and auxins in protein synthesis. It also improves disease resistance in plants.',
     features: [
       'Promotes growth hormones and starch formation',
@@ -311,7 +311,7 @@ export const products: Product[] = [
     name: 'GREEN PLUS',
     category: 'specialty',
     image: '/uploads/GREEN-PLUS.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
     fullDescription: 'Green Plus is an Essential Micronutrient mixture product for spray application. Green Plus is 100% Watersoluble fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -335,7 +335,7 @@ export const products: Product[] = [
     name: 'HI-POWER',
     category: 'specialty',
     image: '/uploads/HI-POWER.png',
-    shortDescription: 'Bio Stimulant Product For Foliar Application',
+    shortDescription: 'Bio Stimulant Product for Foliar Application',
     fullDescription: 'HI-POWER is a Bio Stimulant Product for Foliar Application. It improves soil structure, promotes root development, and increases yield. It increases microbiological activity of soil and stimulate plant growth.',
     features: [
       'Improve the soil structure by increasing the air availability around root zone and the capacity of water holding and cation exchange',
@@ -364,7 +364,7 @@ export const products: Product[] = [
     name: 'NUTRI HIGH ZINC',
     category: 'specialty',
     image: '/uploads/NUTRI-HIGH-ZINC.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture For Soil Application',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Soil Application',
     fullDescription: 'NUTRI HIGH ZINC is a different product which is having essential micronutrients and traces of macro nutrients which helps the crop in all stages of plant growth and development and finally this product will help to get better yield in terms of qualitatively and quantitatively.',
     features: [
       'Improves photosynthesis in plants and entire plants will become greenish',
@@ -439,7 +439,7 @@ export const products: Product[] = [
     name: 'NUTRI GOLD',
     category: 'specialty',
     image: '/uploads/NUTRI-GOLD.png',
-    shortDescription: 'Mixture of Seaweed extract and Humic acid (Granule) Biostimulant product SOIL APPLICATION',
+    shortDescription: 'Mixture of Seaweed extract and Humic acid (Granule) Biostimulant product Soil Application',
     fullDescription: 'NUTRI GOLD Bio stimulant product can be used in agriculture to Improve soil quality. It can improve the chemical, physical, and biological properties of soil. They can also help maintain the soil\'s C:N ratio and increase its water-holding capacity.',
     features: [
       'Increase nutrient uptake: Organic granules can increase the amount of nutrients that plants can absorb',
@@ -463,7 +463,7 @@ export const products: Product[] = [
     name: 'NUTRI GROW',
     category: 'specialty',
     image: '/uploads/NUTRI-GROW.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture (Foliar Application)',
+    shortDescription: 'Micronutrient Fertilizer Mixture Foliar Application',
     fullDescription: 'NUTRI GROW is a Micronutrient Fertilizer Mixture designed for Foliar Application. It improves photosynthesis, overcomes micronutrient deficiency, increases nutrient uptake from soil, and improves disease resistance in all crops. Required in small quantity but increases yield both qualitative and quantitatively.',
     features: [
       'Improves photosynthesis in plants and entire plants will become greenish',
@@ -628,7 +628,7 @@ export const products: Product[] = [
     name: 'NUTRICAL',
     category: 'specialty',
     image: '/uploads/NUTRICAL.png',
-    shortDescription: 'CALCIUM NITRATE (100% Water Soluble Fertilizer) - Calcium 18.8% and Nitrogen 15.5%',
+    shortDescription: 'Calcium Nitrate (100% Water Soluble Fertilizer) - Calcium 18.8% and Nitrogen 15.5%',
     fullDescription: 'NUTRICAL is a CALCIUM NITRATE 100% Water Soluble Fertilizer containing Calcium 18.8% and Nitrogen 15.5%. It is effective in controlling bitter pit disease in apple, spongy tissue in mango, fruit cracking in lemon and other fruit crops. It also helps to increase the shelf life of fruits.',
     features: [
       'Controls bitter pit disease in apple',
@@ -679,7 +679,7 @@ export const products: Product[] = [
     name: 'NUTRIFERUS-12',
     category: 'specialty',
     image: '/uploads/NUTRIFERUS-12.png',
-    shortDescription: 'Chelated Iron as Fe- EDTA (12%Fe) Foliar Application Micro Nutrient Fertilizer',
+    shortDescription: 'Chelated Iron as Fe-EDTA (12%Fe) Foliar Application Micro Nutrient Fertilizer',
     fullDescription: 'NUTRIFERUS is a Chelated ferrous 12%, a water-soluble iron supplement that can help prevent iron deficiency in crops at different growth stages. It can also help improve plant growth and health. Chelated ferrous 12% is more effective at helping plants absorb nutrients than conventional micronutrients.',
     features: [
       'Iron activation: Activates enzymes that regulate crop growth and development',
@@ -703,7 +703,7 @@ export const products: Product[] = [
     name: 'NUTRIMAG',
     category: 'specialty',
     image: '/uploads/NUTRIMAG.png',
-    shortDescription: 'Magnesium Sulphate-(Mg-9.5%) Micronutrient Fertilizer Soil Application',
+    shortDescription: 'Magnesium Sulphate (Mg-9.5%) Micronutrient Fertilizer Soil Application',
     fullDescription: 'NUTRIMAG is a Magnesium Sulphate-(Mg-9.5%) Micronutrient Fertilizer designed for soil application on all agriculture crops. Magnesium is an essential component of various enzyme systems for energy production, protein synthesis, and growth regulation. It improves chlorophyll content and photosynthesis of plants, and activates many plant enzymes needed for growth and development.',
     features: [
       'Essential component of various enzyme systems for energy production, protein synthesis and growth regulation',
@@ -724,7 +724,7 @@ export const products: Product[] = [
     name: 'NUTRIMIX',
     category: 'specialty',
     image: '/uploads/NUTRIMIX.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture For Foliar Spray',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
     fullDescription: 'NUTRIMIX is a Micronutrient Fertilizer Mixture designed for foliar spray on all agriculture crops. It helps to overcome macronutrient deficiencies, improves nutrient absorption from the soil, enhances photosynthesis making plants greenish, increases tillering, flower and fruit grain setting, imparts disease resistance, and increases crop yield both quantitatively and qualitatively.',
     features: [
       'Helps to overcome macronutrients deficiencies in crop',
@@ -772,7 +772,7 @@ export const products: Product[] = [
     name: 'S-400',
     category: 'specialty',
     image: '/uploads/S-400.png',
-    shortDescription: 'HUMIC ACID 51% (Granular) BIOSTIMULANT - DRENCHING / SOIL APPLICATION',
+    shortDescription: 'Humic Acid 51% (Granular) Biostimulant - DRENCHING / Soil Application',
     fullDescription: 'S-400 is a HUMIC ACID 51% (Granular) BIOSTIMULANT designed for DRENCHING / SOIL APPLICATION. It improves soil structure, promotes root development, and increases yield.',
     features: [
       'Improve the soil structure by increasing the air availability around root zone and the capacity of water holding and cation exchange',
@@ -833,7 +833,7 @@ export const products: Product[] = [
     name: 'SUPER PLUS',
     category: 'specialty',
     image: '/uploads/SUPER-PLUS.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
     fullDescription: 'Super Plus is an Essential Micronutrient mixture product for spray application. It is 100% Watersoluble fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -857,7 +857,7 @@ export const products: Product[] = [
     name: 'VAJRA',
     category: 'specialty',
     image: '/uploads/VAJRA.png',
-    shortDescription: '(Micronutrient Fertilizer Mixture for Vegetable Crops) FOR FOLIAR SPRAY',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Vegetable Crops for Foliar Spray',
     fullDescription: 'Vajra is an Essential Micronutrient mixture product for Spray Application. Vajra is 100% Watersoluble Fertilizer to facilitate efficient absorption of nutrients by the leaves. It helps better utilisation of major nutrients, increases immunity power of plants against adverse conditions, takes part in enzymatic functions acting as a catalytic agent to produce vigorous growth, and helps to increase yield and quality of the farm produce.',
     features: [
       'Helps better utilisation of major nutrients',
@@ -881,7 +881,7 @@ export const products: Product[] = [
     name: 'WET-GROW',
     category: 'specialty',
     image: '/uploads/WET-GROW.png',
-    shortDescription: 'Agricultural spray adjuvant For crops and plants (Sticker | Spreader | Activator)',
+    shortDescription: 'Agricultural spray adjuvant for Crops and Plants (Sticker | Spreader | Activator)',
     fullDescription: 'WET-GROW is an Agricultural spray adjuvant for crops and plants. It functions as a Sticker, Spreader, and Activator to enhance the effectiveness of foliar applications.',
     features: [
       'Helps to firmly stick to the leaf surface',
