@@ -7,7 +7,7 @@ export function Footer() {
   const { theme } = useTheme();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '8088773868';
+    const phoneNumber = '918088773868';
     const message = 'Hi! I would like to know more about your agricultural products.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');

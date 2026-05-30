@@ -115,7 +115,7 @@ export const products: Product[] = [
     name: 'BORON+',
     category: 'specialty',
     image: '/uploads/BORON-plus.png',
-    shortDescription: 'BORAX (SODIUM TETRA BORATE) (B - 10.5%) Micronutrient Fertilizer Soil Application',
+    shortDescription: 'BORAX (SODIUM TETRA BORATE) (B - 10.5%) Micronutrient Fertilizer for Soil Application',
     fullDescription: 'BORON+ is a micronutrient fertilizer for soil application containing Borax (Sodium Tetra Borate) with 10.5% Boron. It plays a vital role in the proper development of roots and shoots, improves germination and metabolic processes, and enhances flowering, tillering, and fruit formation.',
     features: [
       'It plays a vital role in proper development of roots and shoots',
@@ -141,7 +141,7 @@ export const products: Product[] = [
     name: 'BORONPLUS',
     category: 'specialty',
     image: '/uploads/BORONPLUS.png',
-    shortDescription: 'Boron 20% (Disodium Octaborate Tetrahydrate) Foliar Application',
+    shortDescription: 'Boron 20% (Disodium Octaborate Tetrahydrate) for Foliar Application',
     fullDescription: 'BORONPLUS is a water-soluble boron fertilizer containing Boron 20% as Disodium Octaborate Tetrahydrate. It plays a vital role in the proper development of roots and shoots, improves germination and metabolic processes, and enhances flowering, tillering, and fruit formation.',
     features: [
       'Plays a vital role in proper development of roots and shoots',
@@ -163,7 +163,7 @@ export const products: Product[] = [
     name: 'CALBON',
     category: 'specialty',
     image: '/uploads/CALBON.png',
-    shortDescription: 'Micro Nutrient Fertiliser Foliar Application',
+    shortDescription: 'Micro Nutrient Fertiliser for Foliar Application',
     fullDescription: 'CALBON is a specialized Micro Nutrient Fertiliser designed for foliar application. It ensures flower & fruit set at initial levels of development, reduces fruit and bloom abortion, and reduces moisture stress in plants. It maintains adequate uptake of Boron and CALBON into plants, helps in producing stronger cells, makes plants more resistant against diseases, prevents fruit-rot and cracking, improves shelf life of vegetables and fruits, and assures profit to farmers.',
     features: [
       'Ensures flower & fruit set at initial levels of development',
@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: 'CALON',
     category: 'specialty',
     image: '/uploads/CALON.png',
-    shortDescription: 'Calcium Chloride 27% Straight Micronutrient Fertilizer Foliar Application',
+    shortDescription: 'Calcium Chloride 27% Straight Micronutrient Fertilizer for Foliar Application',
     fullDescription: 'CALON is a Calcium Chloride 27% Straight Micronutrient Fertilizer designed for foliar application. It helps increase nutrient uptake, promotes strong stands, and is pivotal for crop yield. It helps maintain soil nutrition balance, reduces salinity, improves water penetration, and reduces plant stress. By promoting the release of reserve calcium from the soil, it provides immediate calcium to plants, strengthening cells and increasing disease resistance. It effectively prevents bitter pits in apples, blossom-end rot in tomatoes, and general fruit-rot and cracking.',
     features: [
       'Helps to increase the uptake of all nutrients',
@@ -240,7 +240,7 @@ export const products: Product[] = [
     name: 'DYMOND+ 33',
     category: 'specialty',
     image: '/uploads/DYMOND--plus-33.png',
-    shortDescription: 'Zinc Monohydrate-33% Foliar Application',
+    shortDescription: 'Zinc Monohydrate-33% for Foliar Application',
     fullDescription: 'DYMOND + 33 is a premium Zinc Monohydrate-33% fertilizer designed for foliar application. It is a quality assured Zinc product with 100% purity that effectively controls Zinc deficiency and boosts crop yield and quality. It is particularly effective against yellowing (Khaira) disease in paddy.',
     features: [
       'Mainly controls yellowing (Khaira) disease in paddy',
@@ -264,7 +264,7 @@ export const products: Product[] = [
     name: 'DYMOND-12',
     category: 'specialty',
     image: '/uploads/DYMOND---12.png',
-    shortDescription: 'Chelated Zinc as Zn-EDTA - 12% Zn Straight Micronutrient fertilizer Foliar Application',
+    shortDescription: 'Chelated Zinc as Zn-EDTA - 12% Zn Straight Micronutrient fertilizer for Foliar Application',
     fullDescription: 'As per the research in crops required not only micronutrients are most agriculture the high yielding major nutrients but also essential Off micronutrients Zinc element plays an important role in crop production. Because of the Zinc deficiency in the soil now a days crop yield decreasing gradually. To improve the yield and quality of crops SAKASH AGRO TECH PVT. LTD. has introduced ultimate quality Zinc product like Zinc -12% which contains chelated Zinc 12%.',
     features: [
       'Plays an important role in crop production',
@@ -287,7 +287,7 @@ export const products: Product[] = [
     name: 'DYMOND-21',
     category: 'specialty',
     image: '/uploads/DYMOND-21.png',
-    shortDescription: 'Zinc Sulphate (Zn – 21%) Micronutrient Fertilizer Soil Application',
+    shortDescription: 'Zinc Sulphate (Zn – 21%) Micronutrient Fertilizer for Soil Application',
     fullDescription: 'DYMOND-21 is a ZINC SULPHATE (Zn – 21%) MICRONUTRIENT FERTILIZER for SOIL APPLICATION. Zinc promotes growth hormones and starch formation. It promotes seed maturation and production. It is required by several enzyme systems and auxins in protein synthesis. It also improves disease resistance in plants.',
     features: [
       'Promotes growth hormones and starch formation',
@@ -387,7 +387,7 @@ export const products: Product[] = [
     name: 'HUMIGROW+',
     category: 'specialty',
     image: '/uploads/HUMIGROW-plus.png',
-    shortDescription: 'Humic acid and Fulvic acid 19.5 % (Liquid) Bio Stimulant Product',
+    shortDescription: 'Humic acid and Fulvic acid 19.5 % (Liquid), Bio Stimulant Product',
     fullDescription: 'HUMIGROW+ contains organic constituents like humic, humates & Fulvic acids supported by naturally containing essential trace elements. Humic acids are reported to increase permeability of plant membranes, resulting in higher metabolic activity due to increased nutrient\'s availability & enzyme activity. Humic acids build up organic matter which is required for microbial growth. It stimulates the respiration rates of seeding which leads to quicker germination. It also protects plants from chlorosis, enhance photosynthesis, increases vegetative growth which results in higher yields & healthier crops.',
     features: [
       'Increases permeability of plant membranes',
@@ -414,7 +414,7 @@ export const products: Product[] = [
     name: 'KALPAM',
     category: 'specialty',
     image: '/uploads/KALPAM.png',
-    shortDescription: 'Ascophyllum Nodosum 15% (FS) Organic Seaweed Mixture Biostimulant',
+    shortDescription: 'Ascophyllum Nodosum 15% (FS), Organic Seaweed Mixture Biostimulant',
     fullDescription: 'KALPAM is an Ascophyllum Nodosum 15% (FS) Organic Seaweed Mixture designed for foliar application. It acts as a biostimulant product suitable for all agriculture crops. It promotes shoot, root, and stem elongation, increases microbial activity in the soil, and enhances root development for maximum nutrient uptake. It also improves photosynthesis, making plants greenish, helps overcome micronutrient deficiency, and develops resistance against pests, diseases, and abiotic stress.',
     features: [
       'Increase Plants Shoot, Root, Stem Elongation',
@@ -439,7 +439,7 @@ export const products: Product[] = [
     name: 'NUTRI GOLD',
     category: 'specialty',
     image: '/uploads/NUTRI-GOLD.png',
-    shortDescription: 'Mixture of Seaweed extract and Humic acid (Granule) Biostimulant product Soil Application',
+    shortDescription: 'Mixture of Seaweed extract and Humic acid (Granule), Biostimulant product for Soil Application',
     fullDescription: 'NUTRI GOLD Bio stimulant product can be used in agriculture to Improve soil quality. It can improve the chemical, physical, and biological properties of soil. They can also help maintain the soil\'s C:N ratio and increase its water-holding capacity.',
     features: [
       'Increase nutrient uptake: Organic granules can increase the amount of nutrients that plants can absorb',
@@ -463,7 +463,7 @@ export const products: Product[] = [
     name: 'NUTRI GROW',
     category: 'specialty',
     image: '/uploads/NUTRI-GROW.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture Foliar Application',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Application',
     fullDescription: 'NUTRI GROW is a Micronutrient Fertilizer Mixture designed for Foliar Application. It improves photosynthesis, overcomes micronutrient deficiency, increases nutrient uptake from soil, and improves disease resistance in all crops. Required in small quantity but increases yield both qualitative and quantitatively.',
     features: [
       'Improves photosynthesis in plants and entire plants will become greenish',
@@ -653,7 +653,7 @@ export const products: Product[] = [
     name: 'NUTRICHILL',
     category: 'specialty',
     image: '/uploads/NUTRICHILL.png',
-    shortDescription: 'Chelated Micro Nutrient Mixtures Foliar Application',
+    shortDescription: 'Chelated Micro Nutrient Mixtures for Foliar Application',
     fullDescription: 'NUTRICHILL is an EDTA chelated micro nutrient mixture, free flowing fine crystalline green colour micro granular powder which dissolves speedily and completely in water. It supplies required six essential micronutrients together in optimum dose to crops. Being chelated with EDTA, it assures fast absorption of all individual micro elements into plants. It is virtually free from chloride, sodium and other harmful elements for plants. NUTRICHILL helps to prevent mix crop deficiencies in different forms occurred gradually at different growth stages of crops.',
     features: [
       'EDTA chelated micro nutrient mixture',
@@ -679,7 +679,7 @@ export const products: Product[] = [
     name: 'NUTRIFERUS-12',
     category: 'specialty',
     image: '/uploads/NUTRIFERUS-12.png',
-    shortDescription: 'Chelated Iron as Fe-EDTA (12%Fe) Foliar Application Micro Nutrient Fertilizer',
+    shortDescription: 'Chelated Iron as Fe-EDTA (12%Fe), Micronutrient Fertilizer for Foliar Application',
     fullDescription: 'NUTRIFERUS is a Chelated ferrous 12%, a water-soluble iron supplement that can help prevent iron deficiency in crops at different growth stages. It can also help improve plant growth and health. Chelated ferrous 12% is more effective at helping plants absorb nutrients than conventional micronutrients.',
     features: [
       'Iron activation: Activates enzymes that regulate crop growth and development',
@@ -703,7 +703,7 @@ export const products: Product[] = [
     name: 'NUTRIMAG',
     category: 'specialty',
     image: '/uploads/NUTRIMAG.png',
-    shortDescription: 'Magnesium Sulphate (Mg-9.5%) Micronutrient Fertilizer Soil Application',
+    shortDescription: 'Magnesium Sulphate (Mg-9.5%) Micronutrient Fertilizer for Soil Application',
     fullDescription: 'NUTRIMAG is a Magnesium Sulphate-(Mg-9.5%) Micronutrient Fertilizer designed for soil application on all agriculture crops. Magnesium is an essential component of various enzyme systems for energy production, protein synthesis, and growth regulation. It improves chlorophyll content and photosynthesis of plants, and activates many plant enzymes needed for growth and development.',
     features: [
       'Essential component of various enzyme systems for energy production, protein synthesis and growth regulation',
@@ -724,7 +724,7 @@ export const products: Product[] = [
     name: 'NUTRIMIX',
     category: 'specialty',
     image: '/uploads/NUTRIMIX.png',
-    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Spray',
+    shortDescription: 'Micronutrient Fertilizer Mixture for Foliar Application',
     fullDescription: 'NUTRIMIX is a Micronutrient Fertilizer Mixture designed for foliar spray on all agriculture crops. It helps to overcome macronutrient deficiencies, improves nutrient absorption from the soil, enhances photosynthesis making plants greenish, increases tillering, flower and fruit grain setting, imparts disease resistance, and increases crop yield both quantitatively and qualitatively.',
     features: [
       'Helps to overcome macronutrients deficiencies in crop',
@@ -772,7 +772,7 @@ export const products: Product[] = [
     name: 'S-400',
     category: 'specialty',
     image: '/uploads/S-400.png',
-    shortDescription: 'Humic Acid 51% (Granular) Biostimulant - DRENCHING / Soil Application',
+    shortDescription: 'Humic Acid 51% (Granular) Biostimulant - For Drenching / Soil Application',
     fullDescription: 'S-400 is a HUMIC ACID 51% (Granular) BIOSTIMULANT designed for DRENCHING / SOIL APPLICATION. It improves soil structure, promotes root development, and increases yield.',
     features: [
       'Improve the soil structure by increasing the air availability around root zone and the capacity of water holding and cation exchange',
@@ -795,7 +795,7 @@ export const products: Product[] = [
     name: 'SAMPURNA-4G',
     category: 'specialty',
     image: '/uploads/SAMPURNA-4G.png',
-    shortDescription: 'Advanced agricultural solution for SAMPURNA-4G.',
+    shortDescription: 'Mixture of Seaweed extract and Humic acid (Granule)',
     fullDescription: 'High-quality SAMPURNA-4G designed to improve crop yield and soil health. Suitable for various agricultural applications.',
     features: ['High efficiency', 'Quality improvement', 'Sustainable', 'Easy application'],
     usage: ['Consult label for specific dosage', 'Apply during suitable weather', 'Compatible with most agrochemicals'],
@@ -810,7 +810,7 @@ export const products: Product[] = [
     name: 'SAMPURNA',
     category: 'specialty',
     image: '/uploads/SAMPURNA.png',
-    shortDescription: 'Organic Seaweed Extract Mixture (Ascophyllum nodosum 20% (liquid)) Foliar Application',
+    shortDescription: 'Organic Seaweed Extract Mixture (Ascophyllum nodosum 20% (liquid)) for Foliar Application',
     fullDescription: 'SAMPURNA is an Organic Seaweed Extract Mixture containing 20% Ascophyllum nodosum in liquid form. It is designed for Foliar Application to improve overall plant health and productivity.',
     features: [
       'Improves photosynthesis in plants',
