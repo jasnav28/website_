@@ -9,6 +9,7 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
   const [isVisible, setIsVisible] = useState(true);
   const [showFallback, setShowFallback] = useState(false);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoSrc, setVideoSrc] = useState('/uploads/in.mp4');
 
   const handleVideoEnd = () => {
     setIsVisible(false);
@@ -25,6 +26,10 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
   };
 
   useEffect(() => {
+    // Determine video source based on screen size
+    const isMobile = window.innerWidth < 768;
+    setVideoSrc(isMobile ? '/uploads/nut.mp4' : '/uploads/in.mp4');
+
     // Fallback if video fails to load after 10 seconds
     const fallbackTimer = setTimeout(() => {
       if (!videoLoaded) {
@@ -64,6 +69,7 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
           ) : (
             <>
               <video
+                key={videoSrc}
                 autoPlay
                 muted
                 playsInline
@@ -74,7 +80,7 @@ export function IntroVideo({ onVideoEnd }: IntroVideoProps) {
                 onEnded={handleVideoEnd}
                 className={`w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
               >
-                <source src="/uploads/in.mp4" type="video/mp4" />
+                <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 

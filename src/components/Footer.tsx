@@ -8,7 +8,7 @@ export function Footer() {
 
   const handleWhatsAppClick = () => {
     const phoneNumber = '918088773868';
-    const message = 'Hi! I would like to know more about your agricultural products.';
+    const message = 'Hello! I am interested in your Nutrizenix products.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
